@@ -1,0 +1,45 @@
+# Logfile created on Thu Jun 17 14:55:03 -0300 2010  [4;36;1mPost Create (0.8ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "content", "created_at") VALUES('2010-06-17 18:00:17', 'Awesome post', 'My cool content', '2010-06-17 18:00:17')[0m
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-17 15:00:17) [GET]
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 126ms (View: 37, DB: 2) | 200 OK [http://www.example.com/posts]
+  [4;36;1mPost Create (0.7ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "content", "created_at") VALUES('2010-06-17 18:01:11', 'Awesome post', 'My cool content', '2010-06-17 18:01:11')[0m
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-17 15:01:11) [GET]
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 59ms (View: 38, DB: 2) | 200 OK [http://www.example.com/posts]
+  [4;36;1mPost Create (48.6ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "content", "created_at") VALUES('2010-06-17 18:02:07', 'Awesome post', 'My cool content', '2010-06-17 18:02:07')[0m
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-17 15:02:08) [GET]
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 54ms (View: 37, DB: 50) | 200 OK [http://www.example.com/posts]
+  [4;36;1mPost Create (0.6ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "content", "created_at") VALUES('2010-06-17 18:03:03', 'Awesome post', 'My cool content', '2010-06-17 18:03:03')[0m
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-17 15:03:03) [GET]
+  [4;35;1mPost Load (1.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 58ms (View: 39, DB: 2) | 200 OK [http://www.example.com/posts]
+  [4;36;1mPost Create (0.6ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "content", "created_at") VALUES('2010-06-17 18:03:46', 'Awesome post', 'My cool content', '2010-06-17 18:03:46')[0m
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-06-17 15:03:46) [GET]
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 53ms (View: 36, DB: 2) | 200 OK [http://www.example.com/posts]
